@@ -1,0 +1,20 @@
+{
+  "name": "npm-registry-replicate",
+  "version": "1.0.0",
+  "description": "Replicate npm registry to Algolia",
+  "private": true,
+  "main": "index.js",
+  "author": "Algolia Team <support@algolia.com>",
+  "license": "MIT",
+  "dependencies": {
+    "algoliasearch": "^3.10.2",
+    "lodash": "^3.10.1",
+    "mathjs": "^2.6.0",
+    "moment": "^2.11.1",
+    "npm-registry": "0.1.13",
+    "parse-duration": "^0.1.1",
+    "pouchdb": "^5.1.0",
+    "request": "^2.67.0",
+    "winston": "^2.1.1"
+  }
+}
